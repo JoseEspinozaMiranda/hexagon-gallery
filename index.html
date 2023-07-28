@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Hexagon Gallery</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class = "gallery">
+  <div class="clipped-border">
+    <img src="https://www.blogdelfotografo.com/wp-content/uploads/2011/08/Fotografiar-una-Gota-de-Agua.jpg" id="clipped">
+  </div>
+  <div class="clipped-border">
+    <img src="https://c8.alamy.com/compes/t44trx/close-up-de-una-gota-de-agua-cayendo-sobre-la-superficie-del-agua-t44trx.jpg" id="clipped">
+  </div>
+  <div class="clipped-border">
+    <img src="https://c8.alamy.com/compes/pwjccm/caida-de-gota-de-agua-ver-a-traves-del-cristal-pwjccm.jpg" id="clipped">
+  </div>
+    <div class="clipped-border">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw4n4y8tpTOsVk_PUW2EUFxDdR2WYbN0Hrxj5_vY08Po_tvzXzaZ4_YE4L79n018SLH24&usqp=CAU" id="clipped">
+  </div>
+    <div class="clipped-border">
+    <img src="https://media.istockphoto.com/id/1316334348/es/foto/salpicadura-de-agua-en-forma-de-coraz%C3%B3n.jpg?s=170667a&w=0&k=20&c=oGqvcvqnd2WwULelTLuAvBYwVK6WfhXx-y_CeiyzoXw=" id="clipped">
+  </div> 
+
+
+  <div class="clipped-border">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThMxxk9GJX_EzDl5deDa-4foO5opeCxNj1PtCepOKB2HwEobXWEc5AKidLulz_R0ND-uQ&usqp=CAU" id="clipped">
+  </div>
+  <div class="clipped-border">
+    <img src="https://static8.depositphotos.com/1403216/870/i/450/depositphotos_8708001-stock-photo-water-drop.jpg" id="clipped">
+  </div>
+  <div class = "shadow"></div>
+</div>
+<!-- partial -->
+  <script>
+    function clonar() {
+  var c = document.getElementById("about");
+  var clon = c.cloneNode("about");
+  clon.style.width = "50px";
+  clon.style.height = "50px";
+  document.body.appendChild(clon);
+
+ 
+}
+clonar();
+
+
+
+
+  </script>
+</body>
+</html>
